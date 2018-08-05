@@ -104,7 +104,7 @@ def deserialize(input_string: str) -> typing.Optional[Node]:
     #
     # Chars m and n represent constructed nodes, a is on input and can be seen as "Node(val, " (start of a node
     #  definition) and e represents epsilon from CSG theory.
-    # Now we can construct an equivalent a pushdown automation that accepts the given grammar.
+    # Now we can construct an equivalent pushdown automation that accepts the given grammar.
     #
     # TODO: implement - this is now automated task
 
